@@ -1,12 +1,12 @@
 class PigLatinizer
 
-  attr_accessor :word
+  # attr_accessor :word
+  # 
+  # def initialize(word)
+  #   @word = word
+  # end
 
-  def initialize(word)
-    @word = word
-  end
-
-  def piglatinize
+  def piglatinize(word)
 
     vowel_list = ['a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U']
 
