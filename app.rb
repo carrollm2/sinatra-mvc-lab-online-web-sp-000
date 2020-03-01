@@ -12,7 +12,7 @@ class App < Sinatra::Base
 
     @pig_latin = PigLatinizer.new
 
-    erb :results
+    erb :piglatinize
   end
 
 
