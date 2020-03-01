@@ -10,7 +10,7 @@ class PigLatinizer
 
     vowel_list = ['a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U']
 
-    word_split_by_space = @word.split(' ')
+    word_split_by_space = word.split(' ')
 
     pig_latin_word = ""
     word_split_by_space.each do |w|
