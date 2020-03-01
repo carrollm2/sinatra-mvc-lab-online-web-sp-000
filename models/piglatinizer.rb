@@ -6,7 +6,7 @@ class PigLatinizer
     @word = word
   end
 
-  def piglatinize(word)
+  def piglatinize
 
     vowel_list = ['a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U']
 
