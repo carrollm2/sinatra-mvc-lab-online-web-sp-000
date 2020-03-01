@@ -31,7 +31,7 @@ class PigLatinizer
       else
         pig_latin_end_of_word = 'ay'
       end
-      
+
       if w == word_split_by_space.last
         pig_latin_word += w.slice(split_index_start..-1) + w.slice(0, split_index_start) + pig_latin_end_of_word
       else
@@ -40,6 +40,7 @@ class PigLatinizer
 
     end
 
+    pig_latin_word
   end
 
 end
