@@ -12,7 +12,7 @@ class App < Sinatra::Base
 
     @pig_latin = PigLatinizer.new
 
-    binding.pry
+    puts @pig_latin.piglatinize(@user_phrase)
 
     erb :piglatinize
   end
